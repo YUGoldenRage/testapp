@@ -13,7 +13,7 @@ spec:
         app: myapp
     spec:
       containers:
-      - name: myapp-container
-        image: your-image-name:latest  # Use the image you built
+      - name: myapp
+        image: py:1  # Use the image you built
         ports:
-        - containerPort: 5000
+        - containerPort: 80
